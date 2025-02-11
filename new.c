@@ -9,4 +9,6 @@ int main() {
     n= n & ~(1<<i);
     printf("%d", n);
     return 0;
+
+    printf();
 }

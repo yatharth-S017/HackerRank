@@ -2,13 +2,12 @@
 
 int main() {
 
-  int n;
+    int n;
     int i;
-    scanf("%d", &n);
+    scanf("%d",&n);
     scanf("%d", &i);
-    n= n & ~(1<<i);
+    
+    n = n ^ (1<<i);
     printf("%d", n);
     return 0;
-
-    printf();
 }

@@ -8,6 +8,6 @@ int main() {
     scanf("%d", &i);
     
     n = n ^ (1<<i);
-    printf("%d", n);
+    printf("%d", n);printf("dfjkdjf");
     return 0;
 }

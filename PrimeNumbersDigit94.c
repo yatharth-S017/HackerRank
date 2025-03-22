@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+// _Bool isprime(int x){
+//     if(x<2) return false;
+//     if(x==2) return true;
+    
+//     for(int i=2; i<=x/2; i++){
+//         if(x%i == 0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+int main() {
+
+     long long int n;
+    scanf("%lld", &n);
+    int count =0;
+    
+    if(n <0){
+        n = -(n);
+    }
+    
+    while(n>0){
+        int last = n%10;
+        if(last == 2  || last== 3 || last == 5 || last==7){
+            count++;
+        }
+        n = n/10;
+    }
+    
+    printf("%d", count);
+    
+    
+    return 0;
+}

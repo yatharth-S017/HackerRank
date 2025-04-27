@@ -40,3 +40,5 @@ int main() {
     printf("%d\n", is_disarium_number(n));
     return 0;
 }
+
+// printf()
